@@ -1,0 +1,22 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.local
+
+# Temp downloads & sessions
+downloads/
+*.session
+*.session-journal
+*.jpg
+*.webp
+*.mp4
+*.mp3
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
