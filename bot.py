@@ -252,7 +252,7 @@ async def media_download_handler(client: Client, cb: CallbackQuery):
             f"✨ <b>Quality:</b> <code>{quality}{'p' if media_type == 'v' else ' kbps'}</code>\n"
             f"⏱ <b>Duration:</b> <code>{format_duration(duration_seconds)}</code>\n"
             f"⚡ <b>Uploaded by:</b> {get_channel_tag()}\n\n"
-            f"<i>Powered by Samra Cloud</i>"
+            f"<i>Powered by Plasmodesmata</i>"
         )
         
         if media_type == "a":
