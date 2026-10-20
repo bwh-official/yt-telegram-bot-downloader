@@ -5,7 +5,7 @@ def build_start_markup():
     return InlineKeyboardMarkup([
         [
             InlineKeyboardButton("✨ How to Use", callback_data="help_guide"),
-            InlineKeyboardButton("⚡ Developer", url="https://t.me/sheffysamra1bot")
+            InlineKeyboardButton("⚡ Developer", url="https://t.me/onlydicsussion")
         ],
         [
             InlineKeyboardButton("🌐 Fast Web Downloader", url=cfg.API_BASE)
